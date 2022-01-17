@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Scroll Progress Bar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../global.css">
+  <style type="text/css">
+    .com_tit {
+      padding: 100px 0 80px;
+      font-size: 70px;
+      text-align: center;
+    }
+
+    .com_txt {
+      max-width: 70%;
+      margin: 0 auto;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .sec01 {
+      background: #ddd;
+      margin: 0;
+    }
+
+    .sec01 .content {
+      font-size: 170px;
+    }
+
+    .sec01 .content .progress {
+      position: fixed;
+      left: 50%;
+      top: 500px;
+      width: 70%;
+      height: 100px;
+      margin-left: -35%;
+      border: 1px solid #222;
+      text-align: center;
+    }
+
+    .sec01 .content .progress .bar {
+      display: block;
+      width: 0%;
+      height: 100%;
+      ;
+      background-color: #111;
+    }
+
+    .sec01 .content .progress .txt {
+      font-size: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+  <div class="wrap">
+    <section class="sec01">
+      <h2 class="com_tit">Scroll Progress Bar</h2>
+      <p class="com_txt">Scroll to check your current position</p>
+      <article class="content">
+        <div class="progress">
+          <span class="bar"></span>
+          <p class="txt">
+            0%
+          </p>
+        </div>
+        A<br>
+        B<br>
+        C<br>
+        D<br>
+        E<br>
+        F<br>
+        G<br>
+        H<br>
+        I<br>
+        J<br>
+        K<br>
+        L<br>
+        M<br>
+        N<br>
+        O<br>
+        P<br>
+        Q<br>
+        R<br>
+        S<br>
+        T<br>
+        U<br>
+        V<br>
+        W<br>
+        X<br>
+        Y<br>
+        Z
+      </article>
+    </section>
+  </div>
+  <script src="scrollBar.js" async defer></script>
+</body>
+
+</html>
